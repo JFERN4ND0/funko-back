@@ -7,12 +7,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class FunkoService implements IFunkoService{
+public class FunkoService implements IFunkoService {
     @Autowired
-    @Override
-    public List<Funko> getAll() {
-        return null;
-    }
 
     @Override
     public List<Funko> getByNombre(String nombre) {
@@ -20,7 +16,12 @@ public class FunkoService implements IFunkoService{
     }
 
     @Override
-    public void save(Funko funko) {
+    public List<Funko> getBySerie(String serie) {
+        return null;
+    }
 
+    @Override
+    public List<Funko> getBelong(String belong) {
+        return null;
     }
 }

@@ -11,12 +11,12 @@ import lombok.ToString;
 public class Funko {
     private String id;
     private int cantidad;
-    private String nombre;
+    private String name;
     private String serie;
-    private String descripcion;
-    private String estatus;
-    private String pertenece;
-    private String ruta;
-    private double precio_compra;
-    private double precio_venta;
+    private String description;
+    private String status;
+    private String belong;
+    private String route;
+    private double buy_price;
+    private double sale_price;
 }
