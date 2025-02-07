@@ -8,13 +8,15 @@ import lombok.ToString;
 
 @Entity
 @Table(name = "funko")
-@Getter @Setter
+@Getter
+@Setter
 @ToString
 @EqualsAndHashCode
 public class Funko {
-    @Id @Column(name = "id_funko")
+    @Id
+    @Column(name = "id_funko")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id_funko;
+    private int id_funko;
 
     @Column(name = "cantidad")
     private int cantidad;
